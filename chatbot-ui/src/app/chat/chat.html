@@ -1,0 +1,12 @@
+<div class="sidebar-header">
+  <button class="new-chat-btn">+ New Chat</button>
+</div>
+<ul class="chat-list">
+  <li class="chat-item">Chat 1</li>
+</ul>
+
+<!-- Settings toggle -->
+<button class="settings-btn" (click)="toggleSettings()">⚙️ Settings</button>
+
+<!-- Slide‑up panel -->
+<app-setting *ngIf="showSettings"></app-setting>

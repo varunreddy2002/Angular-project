@@ -1,0 +1,18 @@
+.settings-panel {
+    
+
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 20%;
+  background: white;
+  border-top: 1px solid #ccc;
+  padding: 16px;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+.setting-item label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
